@@ -214,6 +214,28 @@ const MEMOS = [
     footer: "这是模板演示。写真实 memo 时直接复制这个结构并替换内容。"
   },
 
+   {
+     id: "triage-report-03",
+     template: "external",
+     url: "triage-report-03.html",
+   
+     title: "深度分析标题",
+     subtitle: "一句话副标题",
+     date: "2026-04-19",
+   
+     meta: {
+       ticker: "代码",
+       company: "公司名",
+       industry: "行业",
+       category: "深度分析",
+       tags: ["标签1", "标签2"],
+       readingTime: 10,
+       status: "已定稿"
+     },
+   
+     summary: "首页卡片上显示的摘要，两三句话。"
+   },
+
   /* ============================================================
      DEMO 2 · Dashboard 模板演示
      顶部仪表盘 + 下方长文
