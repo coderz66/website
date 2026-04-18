@@ -123,7 +123,7 @@
     } else {
       empty.style.display = "none";
       grid.innerHTML = filtered.map(m => `
-        <a class="card" href="view.html?id=${encodeURIComponent(m.id)}">
+        <a class="card" href="${m.url ? m.url : 'view.html?id=' + encodeURIComponent(m.id)}">
           <div class="card-head">
             <span class="card-category">${m.meta.category}</span>
             <span class="card-date">${formatDate(m.date)}</span>
